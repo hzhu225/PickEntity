@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage SchemaVersion="1.0"
+                    AutodeskProduct="AutoCAD"
+                    ProductType="Application"
+                    Name="Tutorial_7___Pick_entity">
+  <CompanyDetails Name="" Phone=" " Url="" Email="" />
+  <RuntimeRequirements SeriesMax="R20.0"
+                       SeriesMin="R20.0"
+                       Platform="Civil3D"
+                       OS="Win32|Win64" />
+  <Components>
+    <ComponentEntry AppName="Commands for Tutorial_7___Pick_entity"
+                    Version="1.0"
+                    ModuleName="./Contents/Win/Tutorial_7___Pick_entity.dll"
+                    AppDescription="Descrition for command module of Tutorial_7___Pick_entity"
+                    LoadOnCommandInvocation="True" LoadOnRequest="True">
+      <Commands>
+        <Command Local="testPointLabel" Global="testPointLabel" />
+      </Commands>
+    </ComponentEntry>
+  </Components>
+</ApplicationPackage>
